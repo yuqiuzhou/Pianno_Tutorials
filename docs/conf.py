@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'STAGATE'
-copyright = '2021, Kangning Dong'
-author = 'Kangning Dong'
+project = 'Pianno'
+copyright = '2024, Yuqiu Zhou'
+author = 'Yuqiu Zhou'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0.0'
+release = '2.0.0'
 
 
 # -- General configuration ---------------------------------------------------

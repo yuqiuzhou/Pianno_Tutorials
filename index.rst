@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-STAGATE – deciphering spatial domains from spatially resolved transcriptomics
+Pianno: a probabilistic framework automating semantic annotation for spatial transcriptomics
 =============================================================================
 
 .. toctree::
@@ -12,7 +12,7 @@ STAGATE – deciphering spatial domains from spatially resolved transcriptomics
    Installation
    T1_DLPFC
 
-.. image:: ../Images/StaGATE_Fig1.png
+.. image:: ../Images/Pianno_Fig1.png
    :width: 600
 
 News
