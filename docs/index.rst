@@ -14,8 +14,8 @@ Pianno: a probabilistic framework automating semantic annotation for spatial tra
    MB
    MOB
    HIP
-   BRCA
-   PDAC
+   BRCA-A
+   PDAC-A
 
 .. image:: ../Images/Pianno_Fig1.png
    :width: 600
