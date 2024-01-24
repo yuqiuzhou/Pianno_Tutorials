@@ -1,33 +1,68 @@
-.. StaGATE documentation master file, created by
-   sphinx-quickstart on Thu Sep 16 19:43:51 2021.
+.. Pianno documentation master file, created by
+   sphinx-quickstart.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Installation (tensorflow1 framework)
+Installation
 ============
 
-Software dependencies
+Python Dependencies
 ---------------------
+The following dependencies will be installed along with pianno.
 .. code-block:: python
 
-   scanpy
-   tensorflow==1.15.0
-   
-The use of the mclust algorithm requires the rpy2 package and the mclust package. See https://pypi.org/project/rpy2/ and https://cran.r-project.org/web/packages/mclust/index.html for detail.
+   anndata==0.8.0
+   matplotlib==3.5.1
+   numpy==1.19.5
+   opencv-python==4.5.5.64
+   pandas==1.4.1
+   rpy2==3.4.5
+   scanpy==1.9.1
+   scikit-image==0.19.2
+   scikit-learn==1.0.2
+   scipy==1.8.0
+   protobuf==3.20.3
+   squidpy==1.2.2
+   keras==2.6.0
+   tensorflow-gpu==2.6.0
+   tensorflow-probability==0.14.0
+   nni==
+
+R Dependencies
+---------------------
+.. code-block:: r
+
+   r-scran==1.28.2
+   r-saver==1.1.2
+
+Pianno uses the R packages `SAVER` and `scran` in preprocessing for noise reduction and size factor calculation, respectively. These two R packages will be automatically installed during the corresponding analysis in Pianno.
 
 
 Installation
 ------------
-Downloading STAGATE code from https://github.com/QIFEIDKN/STAGATE
+Downloading Pianno code from https://github.com/yuqiuzhou/Pianno
 
 .. code-block:: python
 
-   cd STAGATE-main
-   python setup.py build
-   python setup.py install
+   # create an environment called Pianno
+   conda create -n Pianno python=3.9.10
+
+   # activate your environment
+   conda activate Pianno
+
+   # install R in the Pianno environment
+   conda install -c conda-forge r-base=4.1.1
+
+   # install tensorflow and tensorflow-probability
+   # ensure the version 2 of tensorflow
+   pip install tensorflow-gpu==2.6.0
+   pip install tensorflow-probability==0.14.0
+
+   # install pianno from PyPi
+   pip install pianno
 
 .. code-block:: python
 
-   import STAGATE
+   import pianno as po
    
    
