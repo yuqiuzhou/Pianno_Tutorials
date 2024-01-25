@@ -12,21 +12,14 @@ The following dependencies will be installed along with pianno.
 .. code-block:: python
 
    anndata==0.8.0
-   matplotlib==3.5.1
-   numpy==1.19.5
    opencv-python==4.5.5.64
-   pandas==1.4.1
    rpy2==3.4.5
-   scanpy==1.9.1
    scikit-image==0.19.2
    scikit-learn==1.0.2
    scipy==1.8.0
    protobuf==3.20.3
-   squidpy==1.2.2
    keras==2.6.0
-   tensorflow-gpu==2.6.0
-   tensorflow-probability==0.14.0
-   nni==
+   nni==2.5
 
 R Dependencies
 ---------------------
